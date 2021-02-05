@@ -1,0 +1,82 @@
+{
+  "realname": [
+    {
+      "desc": "认证成功",
+      "realname": "张三",
+      "card_id": "110101199003086355",
+      "expect_msg": "提交成功!"
+    }
+  ],
+  "trust": [
+    {
+      "desc": "请求后台开户（成功）",
+      "status": "登录",
+      "expect_text": "OK"
+    },
+    {
+      "desc": "请求开户失败（未登录）",
+      "status": "未登录",
+      "expect_text": "登录"
+    }
+  ],
+  "vericy_code": [
+    {
+      "desc": "获取充值验证码成功（随机小数）",
+      "random": 0.1231233445,
+      "expect_code": 200
+    },
+    {
+      "desc": "获取充值验证码成功（随机整数）",
+      "random": 1231233445,
+      "expect_code": 200
+    },
+    {
+      "desc": "获取充值验证码失败（随机数为空）",
+      "random": "",
+      "expect_code": 404
+    },
+    {
+      "desc": "获取充值验证码失败（随机数为字符串）",
+      "random": "sdfslksdfk",
+      "expect_code": 400
+    }
+  ],
+  "recharge": [
+    {
+      "desc": "请求后台充值接口成功",
+      "amount": 1000,
+      "valicode": 8888,
+      "expect_text": "OK"
+    },
+    {
+      "desc": "请求后台充值接口失败（金额为空）",
+      "amount": "",
+      "valicode": 8888,
+      "expect_text": "充值金额不能为空"
+    },
+    {
+      "desc": "请求后台充值接口失败（金额为负数）",
+      "amount": -1000,
+      "valicode": 8888,
+      "expect_text": "充值金额必须大于0"
+    },
+    {
+      "desc": "请求后台充值接口失败（金额为0）",
+      "amount": 0,
+      "valicode": 8888,
+      "expect_text": "充值金额必须大于0"
+    },
+    {
+      "desc": "请求后台充值接口失败（验证码为空）",
+      "amount": 1000,
+      "valicode": "",
+      "expect_text": "验证码错误"
+    },
+    {
+      "desc": "请求后台充值接口失败（验证码错误）",
+      "amount": 1000,
+      "valicode": 8889,
+      "expect_text": "验证码错误"
+    }
+  ]
+}

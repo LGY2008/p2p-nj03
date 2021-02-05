@@ -1,0 +1,2 @@
+api_reg_login.py            26 INFO     正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/1231233445 响应状态码:200
+test01_reg_login.py         37 INFO     -->注册图片接口断言通过！<--

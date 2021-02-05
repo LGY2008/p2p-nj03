@@ -1,0 +1,5 @@
+api_reg_login.py            26 INFO     正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12334523234 响应状态码:200
+api_reg_login.py            26 INFO     正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12334523234 响应状态码:200
+api_reg_login.py            39 INFO     正在调用注册手机验证接口，请求url: http://user-p2p-test.itheima.net/member/public/sendSms 请求数据：{'phone': '13600001113', 'imgVerifyCode': '8889', 'type': 'reg'}
+api_reg_login.py            59 INFO     正在调用注册接口，请求url: http://user-p2p-test.itheima.net/member/public/reg 请求数据：{'phone': '13600001113', 'password': 'test123', 'verifycode': '8889', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+test01_reg_login.py         71 INFO     -->注册接口断言通过！<--

@@ -1,0 +1,533 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1612487707741" stop="1612487715740">
+  <name>script</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1612487707741" status="passed" stop="1612487708534">
+      <name>test01_reg_login.TestRegLogin.test01_img_code[0.1231233445-200]</name>
+      <attachments>
+        <attachment source="87a4daf6-1ad9-406e-9e43-c6e58df25ec3-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="49687-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1612487708535" status="passed" stop="1612487708627">
+      <name>test01_reg_login.TestRegLogin.test01_img_code[1231233445-200]</name>
+      <attachments>
+        <attachment source="8edf66a4-8d83-4f1a-9825-65d615fbe253-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="49687-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1612487708627" status="passed" stop="1612487708721">
+      <name>test01_reg_login.TestRegLogin.test01_img_code[-404]</name>
+      <attachments>
+        <attachment source="2e03e45e-9e0a-4984-b932-89f714135d08-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="49687-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1612487708722" status="passed" stop="1612487708811">
+      <name>test01_reg_login.TestRegLogin.test01_img_code[sdfslksdfk-400]</name>
+      <attachments>
+        <attachment source="4ca34f75-44b4-4bb8-8134-6d9409435c0b-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="49687-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1612487708812" status="passed" stop="1612487708956">
+      <name>test01_reg_login.TestRegLogin.test02_phone_code[13600001111-8888-\u77ed\u4fe1\u53d1\u9001\u6210\u529f]</name>
+      <attachments>
+        <attachment source="c14530c9-c32a-4126-8f00-dd596ee1267a-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="49687-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1612487708957" status="passed" stop="1612487709102">
+      <name>test01_reg_login.TestRegLogin.test02_phone_code[13600001111-8889-\u56fe\u7247\u9a8c\u8bc1\u7801\u9519\u8bef]</name>
+      <attachments>
+        <attachment source="865d71b8-8117-4e7e-88e5-142bc589ae4e-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="49687-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1612487709104" status="passed" stop="1612487709367">
+      <name>test01_reg_login.TestRegLogin.test03_reg[13600001111-test123-8888-666666-None-\u6ce8\u518c\u6210\u529f]</name>
+      <attachments>
+        <attachment source="6ba492f0-c486-4b59-8568-696353f0963d-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="49687-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1612487709369" status="passed" stop="1612487709646">
+      <name>test01_reg_login.TestRegLogin.test03_reg[13600001112-test123-8888-666666-13600001111-\u6ce8\u518c\u6210\u529f]</name>
+      <attachments>
+        <attachment source="003cad02-73e8-4133-a508-c9c385eb345d-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="49687-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1612487709647" status="passed" stop="1612487709875">
+      <name>test01_reg_login.TestRegLogin.test03_reg[13600001113-test123-8889-666666-None-\u9a8c\u8bc1\u7801\u9519\u8bef!]</name>
+      <attachments>
+        <attachment source="f4032f70-bb86-4e4d-aa2e-93169bfc8171-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="49687-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1612487709876" status="passed" stop="1612487710122">
+      <name>test01_reg_login.TestRegLogin.test03_reg[13600001113-test123-8888-666667-None-\u9a8c\u8bc1\u7801\u9519\u8bef]</name>
+      <attachments>
+        <attachment source="aa932b9b-99ce-4439-983d-6fb0a02433cf-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="49687-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1612487710123" status="passed" stop="1612487710361">
+      <name>test01_reg_login.TestRegLogin.test03_reg[13600001111-test123-8888-666666-None-\u624b\u673a\u5df2\u5b58\u5728!]</name>
+      <attachments>
+        <attachment source="d9927f74-210f-407f-bc5f-aa8fcd2733da-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="49687-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1612487710362" status="passed" stop="1612487710465">
+      <description>由于跑脚本需要等待1分钟，所以暂时注释掉</description>
+      <name>test01_reg_login.TestRegLogin.test04_login[13600001111-test123-\u767b\u5f55\u6210\u529f]</name>
+      <attachments>
+        <attachment source="168ac5fb-f8b9-460d-9be1-d51631342282-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="49687-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1612487710467" status="passed" stop="1612487710560">
+      <description>由于跑脚本需要等待1分钟，所以暂时注释掉</description>
+      <name>test01_reg_login.TestRegLogin.test04_login[13600001114-test123-\u7528\u6237\u4e0d\u5b58\u5728]</name>
+      <attachments>
+        <attachment source="a3bf3f03-982b-4183-b845-edd10223e7d6-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="49687-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1612487710565" status="passed" stop="1612487710675">
+      <description>由于跑脚本需要等待1分钟，所以暂时注释掉</description>
+      <name>test01_reg_login.TestRegLogin.test04_login[-test123-\u7528\u6237\u540d\u4e0d\u80fd\u4e3a\u7a7a]</name>
+      <attachments>
+        <attachment source="5fa4860b-2f4b-4966-a59f-4a97dc5b1384-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="49687-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1612487710681" status="passed" stop="1612487710774">
+      <description>由于跑脚本需要等待1分钟，所以暂时注释掉</description>
+      <name>test01_reg_login.TestRegLogin.test04_login[13600001111-None-\u5bc6\u7801\u4e0d\u80fd\u4e3a\u7a7a]</name>
+      <attachments>
+        <attachment source="1c530de1-a32c-41f6-a3b7-de854faec815-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="49687-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1612487710776" status="passed" stop="1612487710869">
+      <description>由于跑脚本需要等待1分钟，所以暂时注释掉</description>
+      <name>test01_reg_login.TestRegLogin.test04_login[13600001111-error123-\u9501\u5b9a]</name>
+      <attachments>
+        <attachment source="4319345c-c9e1-481a-9033-55adcce190ed-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="49687-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1612487710870" status="passed" stop="1612487711017">
+      <name>test01_reg_login.TestRegLogin.test05_get_login[\u5df2\u767b\u5f55-OK]</name>
+      <attachments>
+        <attachment source="35b3d710-2144-4b27-997e-9735fc0c7386-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="49687-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1612487711018" status="passed" stop="1612487711110">
+      <name>test01_reg_login.TestRegLogin.test05_get_login[\u672a\u767b\u5f55-\u60a8\u672a\u767b\u9646\uff01]</name>
+      <attachments>
+        <attachment source="2d2d952c-9831-4b27-afbc-e50c1f032d15-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="49687-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1612487711111" status="passed" stop="1612487711262">
+      <name>test02_realname.TestRealName.test01_realname[\u5f20\u4e09-110101199003086355-\u63d0\u4ea4\u6210\u529f!]</name>
+      <attachments>
+        <attachment source="2cd928c6-acae-42ab-9f3f-89dbc508d4be-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="49687-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1612487711263" status="passed" stop="1612487711597">
+      <name>test02_realname.TestRealName.test02_trust[\u767b\u5f55-OK]</name>
+      <attachments>
+        <attachment source="fe62fcd5-0a60-4e93-9f6e-5242576a909f-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="49687-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1612487711598" status="passed" stop="1612487711787">
+      <name>test02_realname.TestRealName.test02_trust[\u672a\u767b\u5f55-\u767b\u5f55]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="49687-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1612487711787" status="passed" stop="1612487711881">
+      <name>test02_realname.TestRealName.test03_verify_code[0.1231233445-200]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="49687-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1612487711882" status="passed" stop="1612487711975">
+      <name>test02_realname.TestRealName.test03_verify_code[1231233445-200]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="49687-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1612487711975" status="passed" stop="1612487712065">
+      <name>test02_realname.TestRealName.test03_verify_code[-404]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="49687-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1612487712066" status="passed" stop="1612487712157">
+      <name>test02_realname.TestRealName.test03_verify_code[sdfslksdfk-400]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="49687-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1612487712158" status="passed" stop="1612487712528">
+      <name>test02_realname.TestRealName.test04_recharge[1000-8888-OK]</name>
+      <attachments>
+        <attachment source="599fc99b-2156-435b-ad54-8339837f0894-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="49687-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1612487712529" status="passed" stop="1612487712722">
+      <name>test02_realname.TestRealName.test04_recharge[-8888-\u5145\u503c\u91d1\u989d\u4e0d\u80fd\u4e3a\u7a7a]</name>
+      <attachments>
+        <attachment source="32908e1f-b4c3-4022-ab1d-c308340b7d49-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="49687-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1612487712723" status="passed" stop="1612487712918">
+      <name>test02_realname.TestRealName.test04_recharge[-1000-8888-\u5145\u503c\u91d1\u989d\u5fc5\u987b\u5927\u4e8e0]</name>
+      <attachments>
+        <attachment source="dc512ddb-e392-4b0f-9fc0-6332f32a128d-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="49687-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1612487712919" status="passed" stop="1612487713109">
+      <name>test02_realname.TestRealName.test04_recharge[0-8888-\u5145\u503c\u91d1\u989d\u5fc5\u987b\u5927\u4e8e0]</name>
+      <attachments>
+        <attachment source="9f655710-7d7c-4490-83bb-cf9943c78ca3-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="49687-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1612487713110" status="passed" stop="1612487713306">
+      <name>test02_realname.TestRealName.test04_recharge[1000--\u9a8c\u8bc1\u7801\u9519\u8bef]</name>
+      <attachments>
+        <attachment source="f36b9e0a-3e90-43b3-8216-53a0fe29b44c-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="49687-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1612487713307" status="passed" stop="1612487713498">
+      <name>test02_realname.TestRealName.test04_recharge[1000-8889-\u9a8c\u8bc1\u7801\u9519\u8bef]</name>
+      <attachments>
+        <attachment source="ef975810-da63-47cb-9ed8-ba019ad0362f-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="49687-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1612487713499" status="passed" stop="1612487713854">
+      <name>test03_tender.TestTender.test01_tender[642-1000--1-OK]</name>
+      <attachments>
+        <attachment source="8af62f72-66a3-4548-a9aa-9f7bb6d0a641-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="49687-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1612487713855" status="passed" stop="1612487714002">
+      <name>test03_tender.TestTender.test01_tender[642---1-\u4e0d\u662f\u6b63\u786e\u7684\u91d1\u989d]</name>
+      <attachments>
+        <attachment source="1a3edc23-da4b-4fcb-8ffc-0f4ae3eb03cd-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="49687-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1612487714003" status="passed" stop="1612487714149">
+      <name>test03_tender.TestTender.test01_tender[642-40--1-\u6295\u6807\u91d1\u989d\u4e0d\u80fd\u4f4e\u4e8e\u6700\u4f4e\u6295\u6807\u91d1\u989d]</name>
+      <attachments>
+        <attachment source="836d16bf-9b9f-4476-b57e-b1ed1472fd85-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="49687-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1612487714150" status="passed" stop="1612487714297">
+      <name>test03_tender.TestTender.test01_tender[642-10000--1-\u6295\u6807\u91d1\u989d\u4e0d\u80fd\u8d85\u8fc7\u6700\u9ad8\u6295\u6807\u91d1\u989d]</name>
+      <attachments>
+        <attachment source="f6c3c07c-15c5-4612-a371-a5b2f34e1ae8-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="49687-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1612487714298" status="passed" stop="1612487714444">
+      <name>test03_tender.TestTender.test01_tender[642-101--1-\u6295\u6807\u91d1\u989d\u4e0d\u662f10\u7684\u500d\u6570!]</name>
+      <attachments>
+        <attachment source="98889f53-aafb-4327-a3c6-bf5256c23347-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="49687-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1612487714445" status="passed" stop="1612487714638">
+      <name>test03_tender.TestTender.test01_tender[642-0--1-\u6295\u6807\u91d1\u989d\u4e0d\u80fd\u4f4e\u4e8e\u6700\u4f4e\u6295\u6807\u91d1\u989d]</name>
+      <attachments>
+        <attachment source="514f0d34-4f2f-4ffb-9a9e-f7691ab06c7e-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="49687-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1612487714639" status="passed" stop="1612487715740">
+      <name>test03_tender.TestTender.test02_mock</name>
+      <attachments>
+        <attachment source="f05a2d12-3b27-4317-9459-e60895814b24-attachment.txt" title="Captured log call" type="text/plain"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="49687-MainThread"/>
+        <label name="host" value="MonkeyPro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

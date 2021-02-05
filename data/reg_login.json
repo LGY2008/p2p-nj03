@@ -1,0 +1,129 @@
+{
+  "img_code": [
+    {
+      "desc": "获取注册图片验证码成功(随机小数)",
+      "random": 0.1231233445,
+      "expect_code": 200
+    },
+    {
+      "desc": "获取注册图片验证码成功(随机整数)",
+      "random": 1231233445,
+      "expect_code": 200
+    },
+    {
+      "desc": "获取注册图片验证码失败（随机数为空）",
+      "random": "",
+      "expect_code": 404
+    },
+    {
+      "desc": "获取注册图片验证码成功(随机字符串)",
+      "random": "sdfslksdfk",
+      "expect_code": 400
+    }
+  ],
+  "phone_code": [
+    {
+      "desc": "获取短信验证码成功",
+      "phone": "13600001111",
+      "imgVerifyCode": "8888",
+      "expect_msg": "短信发送成功"
+    },
+    {
+      "desc": "获取短信验证码失败（图片验证码错误）",
+      "phone": "13600001111",
+      "imgVerifyCode": "8889",
+      "expect_msg": "图片验证码错误"
+    }
+  ],
+  "reg": [
+    {
+      "desc": "注册成功（必填参数）",
+      "phone": "13600001111",
+      "password": "test123",
+      "verifycode": "8888",
+      "phone_code": "666666",
+      "invite_phone": null,
+      "expect_msg": "注册成功"
+    },
+    {
+      "desc": "注册成功（全部参数）",
+      "phone": "13600001112",
+      "password": "test123",
+      "verifycode": "8888",
+      "phone_code": "666666",
+      "invite_phone": "13600001111",
+      "expect_msg": "注册成功"
+    },
+    {
+      "desc": "注册失败（图片验证码错误）",
+      "phone": "13600001113",
+      "password": "test123",
+      "verifycode": "8889",
+      "phone_code": "666666",
+      "invite_phone": null,
+      "expect_msg": "验证码错误!"
+    },
+    {
+      "desc": "注册失败（短信验证码错误）",
+      "phone": "13600001113",
+      "password": "test123",
+      "verifycode": "8888",
+      "phone_code": "666667",
+      "invite_phone": null,
+      "expect_msg": "验证码错误"
+    },
+    {
+      "desc": "注册失败（手机已存在）",
+      "phone": "13600001111",
+      "password": "test123",
+      "verifycode": "8888",
+      "phone_code": "666666",
+      "invite_phone": null,
+      "expect_msg": "手机已存在!"
+    }
+  ],
+  "login": [
+    {
+      "desc": "登录成功",
+      "keywords": "13600001111",
+      "password": "test123",
+      "expect_msg": "登录成功"
+    },
+    {
+      "desc": "登录失败（用户不存在）",
+      "keywords": "13600001114",
+      "password": "test123",
+      "expect_msg": "用户不存在"
+    },
+    {
+      "desc": "登录失败（用户名为空）",
+      "keywords": "",
+      "password": "test123",
+      "expect_msg": "用户名不能为空"
+    },
+    {
+      "desc": "登录失败（密码为空）",
+      "keywords": "13600001111",
+      "password": null,
+      "expect_msg": "密码不能为空"
+    },
+    {
+      "desc": "登录失败（密码错误次数验证）--》调试中，如果正式使用，需要将锁定改为-登录成功",
+      "keywords": "13600001111",
+      "password": "error123",
+      "expect_msg": "锁定"
+    }
+  ],
+  "get_login": [
+    {
+      "desc": "查询登录（已登录）",
+      "status": "已登录",
+      "expect_msg": "OK"
+    },
+    {
+      "desc": "查询登录（未登录）",
+      "status": "未登录",
+      "expect_msg": "您未登陆！"
+    }
+  ]
+}

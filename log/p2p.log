@@ -1,0 +1,223 @@
+2021-02-05 09:11:16,818 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/0.1231233445 响应状态码:200
+2021-02-05 09:11:16,819 INFO [root] [test01_reg_login.py (test01_img_code:37] - -->注册图片接口断言通过！<--
+2021-02-05 09:11:16,921 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/1231233445 响应状态码:200
+2021-02-05 09:11:16,921 INFO [root] [test01_reg_login.py (test01_img_code:37] - -->注册图片接口断言通过！<--
+2021-02-05 09:11:17,019 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/ 响应状态码:404
+2021-02-05 09:11:17,019 INFO [root] [test01_reg_login.py (test01_img_code:37] - -->注册图片接口断言通过！<--
+2021-02-05 09:11:17,120 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/sdfslksdfk 响应状态码:400
+2021-02-05 09:11:17,122 INFO [root] [test01_reg_login.py (test01_img_code:37] - -->注册图片接口断言通过！<--
+2021-02-05 09:11:17,222 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12312312 响应状态码:200
+2021-02-05 09:11:17,223 INFO [root] [api_reg_login.py (api_phone_code:39] - 正在调用注册手机验证接口，请求url: http://user-p2p-test.itheima.net/member/public/sendSms 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-02-05 09:11:17,278 INFO [root] [test01_reg_login.py (test02_phone_code:53] - -->注册短信接口断言通过！<--
+2021-02-05 09:11:17,376 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12312312 响应状态码:200
+2021-02-05 09:11:17,377 INFO [root] [api_reg_login.py (api_phone_code:39] - 正在调用注册手机验证接口，请求url: http://user-p2p-test.itheima.net/member/public/sendSms 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8889', 'type': 'reg'}
+2021-02-05 09:11:17,428 INFO [root] [test01_reg_login.py (test02_phone_code:53] - -->注册短信接口断言通过！<--
+2021-02-05 09:11:17,537 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12334523234 响应状态码:200
+2021-02-05 09:11:17,595 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12334523234 响应状态码:200
+2021-02-05 09:11:17,596 INFO [root] [api_reg_login.py (api_phone_code:39] - 正在调用注册手机验证接口，请求url: http://user-p2p-test.itheima.net/member/public/sendSms 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-02-05 09:11:17,654 INFO [root] [api_reg_login.py (api_register:59] - 正在调用注册接口，请求url: http://user-p2p-test.itheima.net/member/public/reg 请求数据：{'phone': '13600001111', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-02-05 09:11:17,718 INFO [root] [test01_reg_login.py (test03_reg:71] - -->注册接口断言通过！<--
+2021-02-05 09:11:17,821 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12334523234 响应状态码:200
+2021-02-05 09:11:17,869 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12334523234 响应状态码:200
+2021-02-05 09:11:17,869 INFO [root] [api_reg_login.py (api_phone_code:39] - 正在调用注册手机验证接口，请求url: http://user-p2p-test.itheima.net/member/public/sendSms 请求数据：{'phone': '13600001112', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-02-05 09:11:17,924 INFO [root] [api_reg_login.py (api_register:59] - 正在调用注册接口，请求url: http://user-p2p-test.itheima.net/member/public/reg 请求数据：{'phone': '13600001112', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': '13600001111'}
+2021-02-05 09:11:17,992 INFO [root] [test01_reg_login.py (test03_reg:71] - -->注册接口断言通过！<--
+2021-02-05 09:11:18,097 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12334523234 响应状态码:200
+2021-02-05 09:11:18,145 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12334523234 响应状态码:200
+2021-02-05 09:11:18,145 INFO [root] [api_reg_login.py (api_phone_code:39] - 正在调用注册手机验证接口，请求url: http://user-p2p-test.itheima.net/member/public/sendSms 请求数据：{'phone': '13600001113', 'imgVerifyCode': '8889', 'type': 'reg'}
+2021-02-05 09:11:18,192 INFO [root] [api_reg_login.py (api_register:59] - 正在调用注册接口，请求url: http://user-p2p-test.itheima.net/member/public/reg 请求数据：{'phone': '13600001113', 'password': 'test123', 'verifycode': '8889', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-02-05 09:11:18,283 INFO [root] [test01_reg_login.py (test03_reg:71] - -->注册接口断言通过！<--
+2021-02-05 09:11:18,394 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12334523234 响应状态码:200
+2021-02-05 09:11:18,449 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12334523234 响应状态码:200
+2021-02-05 09:11:18,451 INFO [root] [api_reg_login.py (api_phone_code:39] - 正在调用注册手机验证接口，请求url: http://user-p2p-test.itheima.net/member/public/sendSms 请求数据：{'phone': '13600001113', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-02-05 09:11:18,512 INFO [root] [api_reg_login.py (api_register:59] - 正在调用注册接口，请求url: http://user-p2p-test.itheima.net/member/public/reg 请求数据：{'phone': '13600001113', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666667', 'dy_server': 'on', 'invite_phone': None}
+2021-02-05 09:11:18,615 INFO [root] [test01_reg_login.py (test03_reg:71] - -->注册接口断言通过！<--
+2021-02-05 09:11:18,743 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12334523234 响应状态码:200
+2021-02-05 09:11:18,793 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12334523234 响应状态码:200
+2021-02-05 09:11:18,793 INFO [root] [api_reg_login.py (api_phone_code:39] - 正在调用注册手机验证接口，请求url: http://user-p2p-test.itheima.net/member/public/sendSms 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-02-05 09:11:18,850 INFO [root] [api_reg_login.py (api_register:59] - 正在调用注册接口，请求url: http://user-p2p-test.itheima.net/member/public/reg 请求数据：{'phone': '13600001111', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-02-05 09:11:18,898 INFO [root] [test01_reg_login.py (test03_reg:71] - -->注册接口断言通过！<--
+2021-02-05 09:11:18,906 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:11:19,009 INFO [root] [test01_reg_login.py (test04_login:105] - -->登录接口断言通过！<--
+2021-02-05 09:11:19,012 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001114', 'password': 'test123'}
+2021-02-05 09:11:19,101 INFO [root] [test01_reg_login.py (test04_login:105] - -->登录接口断言通过！<--
+2021-02-05 09:11:19,104 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '', 'password': 'test123'}
+2021-02-05 09:11:19,196 INFO [root] [test01_reg_login.py (test04_login:105] - -->登录接口断言通过！<--
+2021-02-05 09:11:19,202 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': None}
+2021-02-05 09:11:19,300 INFO [root] [test01_reg_login.py (test04_login:105] - -->登录接口断言通过！<--
+2021-02-05 09:11:19,303 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'error123'}
+2021-02-05 09:11:19,395 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'error123'}
+2021-02-05 09:11:19,445 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'error123'}
+2021-02-05 09:12:19,500 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:12:19,560 INFO [root] [test01_reg_login.py (test04_login:93] - -->登录接口锁定60秒后断言通过！<--
+2021-02-05 09:12:19,562 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:12:19,663 INFO [root] [api_reg_login.py (api_get_login:76] - 正在调用查询登录状态接口，请求url: http://user-p2p-test.itheima.net/member/public/islogin
+2021-02-05 09:12:19,708 INFO [root] [test01_reg_login.py (test05_get_login:138] - -->查询登录状态接口断言通过！<--
+2021-02-05 09:12:19,710 INFO [root] [api_reg_login.py (api_get_login:76] - 正在调用查询登录状态接口，请求url: http://user-p2p-test.itheima.net/member/public/islogin
+2021-02-05 09:12:19,799 INFO [root] [test01_reg_login.py (test05_get_login:138] - -->查询登录状态接口断言通过！<--
+2021-02-05 09:12:19,802 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:12:19,953 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:12:21,277 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:12:21,642 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:12:21,838 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:12:22,036 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:12:22,232 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:12:22,431 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:12:22,625 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:12:23,097 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:12:23,246 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:12:23,400 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:12:23,552 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:12:23,700 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:12:23,937 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12334523234 响应状态码:200
+2021-02-05 09:12:23,983 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12334523234 响应状态码:200
+2021-02-05 09:12:23,983 INFO [root] [api_reg_login.py (api_phone_code:39] - 正在调用注册手机验证接口，请求url: http://user-p2p-test.itheima.net/member/public/sendSms 请求数据：{'phone': '13600001115', 'imgVerifyCode': 8888, 'type': 'reg'}
+2021-02-05 09:12:24,169 INFO [root] [api_reg_login.py (api_register:59] - 正在调用注册接口，请求url: http://user-p2p-test.itheima.net/member/public/reg 请求数据：{'phone': '13600001115', 'password': 'test123', 'verifycode': 8888, 'phone_code': 666666, 'dy_server': 'on', 'invite_phone': None}
+2021-02-05 09:12:24,232 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001115', 'password': 'test123'}
+2021-02-05 09:14:09,507 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/0.1231233445 响应状态码:200
+2021-02-05 09:14:09,507 INFO [root] [test01_reg_login.py (test01_img_code:37] - -->注册图片接口断言通过！<--
+2021-02-05 09:14:09,601 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/1231233445 响应状态码:200
+2021-02-05 09:14:09,601 INFO [root] [test01_reg_login.py (test01_img_code:37] - -->注册图片接口断言通过！<--
+2021-02-05 09:14:09,694 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/ 响应状态码:404
+2021-02-05 09:14:09,694 INFO [root] [test01_reg_login.py (test01_img_code:37] - -->注册图片接口断言通过！<--
+2021-02-05 09:14:09,791 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/sdfslksdfk 响应状态码:400
+2021-02-05 09:14:09,791 INFO [root] [test01_reg_login.py (test01_img_code:37] - -->注册图片接口断言通过！<--
+2021-02-05 09:14:09,892 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12312312 响应状态码:200
+2021-02-05 09:14:09,893 INFO [root] [api_reg_login.py (api_phone_code:39] - 正在调用注册手机验证接口，请求url: http://user-p2p-test.itheima.net/member/public/sendSms 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-02-05 09:14:09,954 INFO [root] [test01_reg_login.py (test02_phone_code:53] - -->注册短信接口断言通过！<--
+2021-02-05 09:14:10,049 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12312312 响应状态码:200
+2021-02-05 09:14:10,049 INFO [root] [api_reg_login.py (api_phone_code:39] - 正在调用注册手机验证接口，请求url: http://user-p2p-test.itheima.net/member/public/sendSms 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8889', 'type': 'reg'}
+2021-02-05 09:14:10,095 INFO [root] [test01_reg_login.py (test02_phone_code:53] - -->注册短信接口断言通过！<--
+2021-02-05 09:14:10,193 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12334523234 响应状态码:200
+2021-02-05 09:14:10,241 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12334523234 响应状态码:200
+2021-02-05 09:14:10,241 INFO [root] [api_reg_login.py (api_phone_code:39] - 正在调用注册手机验证接口，请求url: http://user-p2p-test.itheima.net/member/public/sendSms 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-02-05 09:14:10,296 INFO [root] [api_reg_login.py (api_register:59] - 正在调用注册接口，请求url: http://user-p2p-test.itheima.net/member/public/reg 请求数据：{'phone': '13600001111', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-02-05 09:14:10,362 INFO [root] [test01_reg_login.py (test03_reg:71] - -->注册接口断言通过！<--
+2021-02-05 09:14:10,459 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12334523234 响应状态码:200
+2021-02-05 09:14:10,506 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12334523234 响应状态码:200
+2021-02-05 09:14:10,506 INFO [root] [api_reg_login.py (api_phone_code:39] - 正在调用注册手机验证接口，请求url: http://user-p2p-test.itheima.net/member/public/sendSms 请求数据：{'phone': '13600001112', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-02-05 09:14:10,558 INFO [root] [api_reg_login.py (api_register:59] - 正在调用注册接口，请求url: http://user-p2p-test.itheima.net/member/public/reg 请求数据：{'phone': '13600001112', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': '13600001111'}
+2021-02-05 09:14:10,623 INFO [root] [test01_reg_login.py (test03_reg:71] - -->注册接口断言通过！<--
+2021-02-05 09:14:10,720 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12334523234 响应状态码:200
+2021-02-05 09:14:10,768 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12334523234 响应状态码:200
+2021-02-05 09:14:10,768 INFO [root] [api_reg_login.py (api_phone_code:39] - 正在调用注册手机验证接口，请求url: http://user-p2p-test.itheima.net/member/public/sendSms 请求数据：{'phone': '13600001113', 'imgVerifyCode': '8889', 'type': 'reg'}
+2021-02-05 09:14:10,814 INFO [root] [api_reg_login.py (api_register:59] - 正在调用注册接口，请求url: http://user-p2p-test.itheima.net/member/public/reg 请求数据：{'phone': '13600001113', 'password': 'test123', 'verifycode': '8889', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-02-05 09:14:10,858 INFO [root] [test01_reg_login.py (test03_reg:71] - -->注册接口断言通过！<--
+2021-02-05 09:14:10,951 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12334523234 响应状态码:200
+2021-02-05 09:14:10,998 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12334523234 响应状态码:200
+2021-02-05 09:14:10,998 INFO [root] [api_reg_login.py (api_phone_code:39] - 正在调用注册手机验证接口，请求url: http://user-p2p-test.itheima.net/member/public/sendSms 请求数据：{'phone': '13600001113', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-02-05 09:14:11,051 INFO [root] [api_reg_login.py (api_register:59] - 正在调用注册接口，请求url: http://user-p2p-test.itheima.net/member/public/reg 请求数据：{'phone': '13600001113', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666667', 'dy_server': 'on', 'invite_phone': None}
+2021-02-05 09:14:11,096 INFO [root] [test01_reg_login.py (test03_reg:71] - -->注册接口断言通过！<--
+2021-02-05 09:14:11,187 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12334523234 响应状态码:200
+2021-02-05 09:14:11,234 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12334523234 响应状态码:200
+2021-02-05 09:14:11,234 INFO [root] [api_reg_login.py (api_phone_code:39] - 正在调用注册手机验证接口，请求url: http://user-p2p-test.itheima.net/member/public/sendSms 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-02-05 09:14:11,287 INFO [root] [api_reg_login.py (api_register:59] - 正在调用注册接口，请求url: http://user-p2p-test.itheima.net/member/public/reg 请求数据：{'phone': '13600001111', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-02-05 09:14:11,335 INFO [root] [test01_reg_login.py (test03_reg:71] - -->注册接口断言通过！<--
+2021-02-05 09:14:11,344 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:14:11,612 INFO [root] [test01_reg_login.py (test04_login:120] - -->登录接口断言通过！<--
+2021-02-05 09:14:11,614 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001114', 'password': 'test123'}
+2021-02-05 09:14:11,703 INFO [root] [test01_reg_login.py (test04_login:120] - -->登录接口断言通过！<--
+2021-02-05 09:14:11,705 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '', 'password': 'test123'}
+2021-02-05 09:14:11,793 INFO [root] [test01_reg_login.py (test04_login:120] - -->登录接口断言通过！<--
+2021-02-05 09:14:11,795 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': None}
+2021-02-05 09:14:11,884 INFO [root] [test01_reg_login.py (test04_login:120] - -->登录接口断言通过！<--
+2021-02-05 09:14:11,886 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'error123'}
+2021-02-05 09:14:11,981 ERROR [root] [test01_reg_login.py (test04_login:122] - 【登录接口断言不通过！】
+2021-02-05 09:14:11,981 ERROR [root] [test01_reg_login.py (test04_login:124] - 预期结果：登录成功 实际结果：密码错误1次,达到3次将锁定账户
+2021-02-05 09:14:12,063 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:14:12,161 INFO [root] [api_reg_login.py (api_get_login:76] - 正在调用查询登录状态接口，请求url: http://user-p2p-test.itheima.net/member/public/islogin
+2021-02-05 09:14:12,206 INFO [root] [test01_reg_login.py (test05_get_login:138] - -->查询登录状态接口断言通过！<--
+2021-02-05 09:14:12,208 INFO [root] [api_reg_login.py (api_get_login:76] - 正在调用查询登录状态接口，请求url: http://user-p2p-test.itheima.net/member/public/islogin
+2021-02-05 09:14:12,300 INFO [root] [test01_reg_login.py (test05_get_login:138] - -->查询登录状态接口断言通过！<--
+2021-02-05 09:14:12,303 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:14:12,498 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:14:13,382 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:14:13,744 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:14:13,938 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:14:14,520 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:14:14,719 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:14:14,923 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:14:15,128 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:14:15,481 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:14:15,628 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:14:15,794 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:14:15,941 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:14:16,089 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:14:16,327 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12334523234 响应状态码:200
+2021-02-05 09:14:16,375 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12334523234 响应状态码:200
+2021-02-05 09:14:16,375 INFO [root] [api_reg_login.py (api_phone_code:39] - 正在调用注册手机验证接口，请求url: http://user-p2p-test.itheima.net/member/public/sendSms 请求数据：{'phone': '13600001115', 'imgVerifyCode': 8888, 'type': 'reg'}
+2021-02-05 09:14:16,429 INFO [root] [api_reg_login.py (api_register:59] - 正在调用注册接口，请求url: http://user-p2p-test.itheima.net/member/public/reg 请求数据：{'phone': '13600001115', 'password': 'test123', 'verifycode': 8888, 'phone_code': 666666, 'dy_server': 'on', 'invite_phone': None}
+2021-02-05 09:14:16,493 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001115', 'password': 'test123'}
+2021-02-05 09:15:08,533 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/0.1231233445 响应状态码:200
+2021-02-05 09:15:08,533 INFO [root] [test01_reg_login.py (test01_img_code:37] - -->注册图片接口断言通过！<--
+2021-02-05 09:15:08,626 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/1231233445 响应状态码:200
+2021-02-05 09:15:08,626 INFO [root] [test01_reg_login.py (test01_img_code:37] - -->注册图片接口断言通过！<--
+2021-02-05 09:15:08,720 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/ 响应状态码:404
+2021-02-05 09:15:08,720 INFO [root] [test01_reg_login.py (test01_img_code:37] - -->注册图片接口断言通过！<--
+2021-02-05 09:15:08,810 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/sdfslksdfk 响应状态码:400
+2021-02-05 09:15:08,810 INFO [root] [test01_reg_login.py (test01_img_code:37] - -->注册图片接口断言通过！<--
+2021-02-05 09:15:08,901 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12312312 响应状态码:200
+2021-02-05 09:15:08,901 INFO [root] [api_reg_login.py (api_phone_code:39] - 正在调用注册手机验证接口，请求url: http://user-p2p-test.itheima.net/member/public/sendSms 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-02-05 09:15:08,955 INFO [root] [test01_reg_login.py (test02_phone_code:53] - -->注册短信接口断言通过！<--
+2021-02-05 09:15:09,050 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12312312 响应状态码:200
+2021-02-05 09:15:09,050 INFO [root] [api_reg_login.py (api_phone_code:39] - 正在调用注册手机验证接口，请求url: http://user-p2p-test.itheima.net/member/public/sendSms 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8889', 'type': 'reg'}
+2021-02-05 09:15:09,101 INFO [root] [test01_reg_login.py (test02_phone_code:53] - -->注册短信接口断言通过！<--
+2021-02-05 09:15:09,197 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12334523234 响应状态码:200
+2021-02-05 09:15:09,248 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12334523234 响应状态码:200
+2021-02-05 09:15:09,248 INFO [root] [api_reg_login.py (api_phone_code:39] - 正在调用注册手机验证接口，请求url: http://user-p2p-test.itheima.net/member/public/sendSms 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-02-05 09:15:09,301 INFO [root] [api_reg_login.py (api_register:59] - 正在调用注册接口，请求url: http://user-p2p-test.itheima.net/member/public/reg 请求数据：{'phone': '13600001111', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-02-05 09:15:09,367 INFO [root] [test01_reg_login.py (test03_reg:71] - -->注册接口断言通过！<--
+2021-02-05 09:15:09,468 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12334523234 响应状态码:200
+2021-02-05 09:15:09,519 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12334523234 响应状态码:200
+2021-02-05 09:15:09,519 INFO [root] [api_reg_login.py (api_phone_code:39] - 正在调用注册手机验证接口，请求url: http://user-p2p-test.itheima.net/member/public/sendSms 请求数据：{'phone': '13600001112', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-02-05 09:15:09,574 INFO [root] [api_reg_login.py (api_register:59] - 正在调用注册接口，请求url: http://user-p2p-test.itheima.net/member/public/reg 请求数据：{'phone': '13600001112', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': '13600001111'}
+2021-02-05 09:15:09,645 INFO [root] [test01_reg_login.py (test03_reg:71] - -->注册接口断言通过！<--
+2021-02-05 09:15:09,737 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12334523234 响应状态码:200
+2021-02-05 09:15:09,783 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12334523234 响应状态码:200
+2021-02-05 09:15:09,783 INFO [root] [api_reg_login.py (api_phone_code:39] - 正在调用注册手机验证接口，请求url: http://user-p2p-test.itheima.net/member/public/sendSms 请求数据：{'phone': '13600001113', 'imgVerifyCode': '8889', 'type': 'reg'}
+2021-02-05 09:15:09,828 INFO [root] [api_reg_login.py (api_register:59] - 正在调用注册接口，请求url: http://user-p2p-test.itheima.net/member/public/reg 请求数据：{'phone': '13600001113', 'password': 'test123', 'verifycode': '8889', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-02-05 09:15:09,874 INFO [root] [test01_reg_login.py (test03_reg:71] - -->注册接口断言通过！<--
+2021-02-05 09:15:09,970 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12334523234 响应状态码:200
+2021-02-05 09:15:10,018 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12334523234 响应状态码:200
+2021-02-05 09:15:10,018 INFO [root] [api_reg_login.py (api_phone_code:39] - 正在调用注册手机验证接口，请求url: http://user-p2p-test.itheima.net/member/public/sendSms 请求数据：{'phone': '13600001113', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-02-05 09:15:10,074 INFO [root] [api_reg_login.py (api_register:59] - 正在调用注册接口，请求url: http://user-p2p-test.itheima.net/member/public/reg 请求数据：{'phone': '13600001113', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666667', 'dy_server': 'on', 'invite_phone': None}
+2021-02-05 09:15:10,121 INFO [root] [test01_reg_login.py (test03_reg:71] - -->注册接口断言通过！<--
+2021-02-05 09:15:10,215 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12334523234 响应状态码:200
+2021-02-05 09:15:10,260 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12334523234 响应状态码:200
+2021-02-05 09:15:10,260 INFO [root] [api_reg_login.py (api_phone_code:39] - 正在调用注册手机验证接口，请求url: http://user-p2p-test.itheima.net/member/public/sendSms 请求数据：{'phone': '13600001111', 'imgVerifyCode': '8888', 'type': 'reg'}
+2021-02-05 09:15:10,314 INFO [root] [api_reg_login.py (api_register:59] - 正在调用注册接口，请求url: http://user-p2p-test.itheima.net/member/public/reg 请求数据：{'phone': '13600001111', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': None}
+2021-02-05 09:15:10,360 INFO [root] [test01_reg_login.py (test03_reg:71] - -->注册接口断言通过！<--
+2021-02-05 09:15:10,363 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:15:10,465 INFO [root] [test01_reg_login.py (test04_login:120] - -->登录接口断言通过！<--
+2021-02-05 09:15:10,467 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001114', 'password': 'test123'}
+2021-02-05 09:15:10,559 INFO [root] [test01_reg_login.py (test04_login:120] - -->登录接口断言通过！<--
+2021-02-05 09:15:10,571 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '', 'password': 'test123'}
+2021-02-05 09:15:10,673 INFO [root] [test01_reg_login.py (test04_login:120] - -->登录接口断言通过！<--
+2021-02-05 09:15:10,683 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': None}
+2021-02-05 09:15:10,774 INFO [root] [test01_reg_login.py (test04_login:120] - -->登录接口断言通过！<--
+2021-02-05 09:15:10,776 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'error123'}
+2021-02-05 09:15:10,868 INFO [root] [test01_reg_login.py (test04_login:120] - -->登录接口断言通过！<--
+2021-02-05 09:15:10,870 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:15:10,971 INFO [root] [api_reg_login.py (api_get_login:76] - 正在调用查询登录状态接口，请求url: http://user-p2p-test.itheima.net/member/public/islogin
+2021-02-05 09:15:11,016 INFO [root] [test01_reg_login.py (test05_get_login:138] - -->查询登录状态接口断言通过！<--
+2021-02-05 09:15:11,018 INFO [root] [api_reg_login.py (api_get_login:76] - 正在调用查询登录状态接口，请求url: http://user-p2p-test.itheima.net/member/public/islogin
+2021-02-05 09:15:11,109 INFO [root] [test01_reg_login.py (test05_get_login:138] - -->查询登录状态接口断言通过！<--
+2021-02-05 09:15:11,111 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:15:11,266 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:15:12,158 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:15:12,529 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:15:12,724 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:15:12,919 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:15:13,110 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:15:13,307 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:15:13,500 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:15:13,855 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:15:14,004 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:15:14,151 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:15:14,298 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:15:14,446 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001111', 'password': 'test123'}
+2021-02-05 09:15:14,731 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12334523234 响应状态码:200
+2021-02-05 09:15:14,777 INFO [root] [api_reg_login.py (api_reg_img:26] - 正在调用注册图片验证接口，请求url: http://user-p2p-test.itheima.net/common/public/verifycode1/12334523234 响应状态码:200
+2021-02-05 09:15:14,777 INFO [root] [api_reg_login.py (api_phone_code:39] - 正在调用注册手机验证接口，请求url: http://user-p2p-test.itheima.net/member/public/sendSms 请求数据：{'phone': '13600001115', 'imgVerifyCode': 8888, 'type': 'reg'}
+2021-02-05 09:15:14,831 INFO [root] [api_reg_login.py (api_register:59] - 正在调用注册接口，请求url: http://user-p2p-test.itheima.net/member/public/reg 请求数据：{'phone': '13600001115', 'password': 'test123', 'verifycode': 8888, 'phone_code': 666666, 'dy_server': 'on', 'invite_phone': None}
+2021-02-05 09:15:14,899 INFO [root] [api_reg_login.py (api_login:70] - 正在调用登录接口，请求url: http://user-p2p-test.itheima.net/member/public/login 请求数据：{'keywords': '13600001115', 'password': 'test123'}

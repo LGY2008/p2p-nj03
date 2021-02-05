@@ -1,0 +1,46 @@
+{
+  "tender": [
+    {
+      "desc": "请求后台投资接口成功",
+      "tender_id": 642,
+      "amount": 1000,
+      "depositCertificate": -1,
+      "expect_msg": "OK"
+    },
+    {
+      "desc": "请求后台投资接口失败（投资金额为空）",
+      "tender_id": 642,
+      "amount": "",
+      "depositCertificate": -1,
+      "expect_msg": "不是正确的金额"
+    },
+    {
+      "desc": "请求后台投资接口失败（投资金额低于最低金额）",
+      "tender_id": 642,
+      "amount": 40,
+      "depositCertificate": -1,
+      "expect_msg": "投标金额不能低于最低投标金额"
+    },
+    {
+      "desc": "请求后台投资接口失败（投资金额高于最高金额）",
+      "tender_id": 642,
+      "amount": 10000,
+      "depositCertificate": -1,
+      "expect_msg": "投标金额不能超过最高投标金额"
+    },
+    {
+      "desc": "请求后台投资接口失败（投资金额非10的倍数）",
+      "tender_id": 642,
+      "amount": 101,
+      "depositCertificate": -1,
+      "expect_msg": "投标金额不是10的倍数!"
+    },
+    {
+      "desc": "请求后台投资接口失败（投资金额为0）",
+      "tender_id": 642,
+      "amount": 0,
+      "depositCertificate": -1,
+      "expect_msg": "投标金额不能低于最低投标金额"
+    }
+  ]
+}

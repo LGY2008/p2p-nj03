@@ -1,0 +1,2 @@
+api_reg_login.py            76 INFO     正在调用查询登录状态接口，请求url: http://user-p2p-test.itheima.net/member/public/islogin
+test01_reg_login.py        138 INFO     -->查询登录状态接口断言通过！<--
